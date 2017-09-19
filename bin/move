@@ -3,3 +3,9 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
+array = [" "," "," "," "," "," "," "," "," "]
+display_board(array)
+#
+# position = gets.chop
+#
+# move(position)
