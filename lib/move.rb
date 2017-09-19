@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(move)
-  if move.to_i < 1
+  if move.to_i < 0
     move =move.to_i + 1
   end
   move = move.to_i - 1
