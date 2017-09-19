@@ -12,3 +12,4 @@ position = gets.chop
 
 
 move(array,input_to_index(position), "X")
+display_board(array)
