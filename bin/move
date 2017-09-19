@@ -12,5 +12,5 @@ move = gets.chop
 
 
 
-move(board,input_to_index(move), "X")
+move(board,input_to_index(move))
 display_board(board)
