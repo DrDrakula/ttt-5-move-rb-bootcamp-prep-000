@@ -3,13 +3,13 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-array = [" "," "," "," "," "," "," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 display_board(array)
 
 puts "Choose a position to play (1-9, where 1 is the top left and 9 is the bottom right)"
-position = gets.chop
+move = gets.chop
 
 
 
-move(array,input_to_index(position), "X")
-display_board(array)
+move(board,input_to_index(position), "X")
+display_board(board)
